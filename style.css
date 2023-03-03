@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'CloisterBlack';
+    src: url('fontes/CloisterBlack.ttf') format('truetype');
+}
+#bodyindex {
+    background-image: linear-gradient(180deg, #3D7068,#A0BBF0,#C7D9B7);
+    background-attachment: fixed;
+}
+h1, h2, h3, h4 {
+    font-family: 'CloisterBlack';
+}
+h1 {
+    text-align: center;
+}
+p, li {
+    text-align: justify;
+}
+header, main {
+    background-color: #fff;
+    padding: 5px;
+    width: 600px;
+    margin: auto;
+    border-radius: 5px;
+}
+.botao {
+    text-decoration: none;
+    color: black;
+}
+.habilidades td, .habilidades th{
+    border-style: solid;
+    text-align: center;
+}
